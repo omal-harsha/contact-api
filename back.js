@@ -5,11 +5,12 @@ const mysql = require("mysql2")
 const cors = require("cors")
 
 const db = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "abc123",
-    database: "crud_contact"
+    host: "us-cdbr-east-06.cleardb.net",
+    user: "b6cf414d115c71",
+    password: "ae841b5d",
+    database: "heroku_15dcc06d4280242"
 })
+
 
 app.use(cors())
 app.use(express.json())
