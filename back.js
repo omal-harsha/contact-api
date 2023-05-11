@@ -6,11 +6,19 @@ const cors = require("cors")
 
 const db = mysql.createPool({
     host: "us-cdbr-east-06.cleardb.net",
-    user: "b6cf414d115c71",
-    password: "ae841b5d",
-    database: "heroku_15dcc06d4280242"
+    user: "bd64837d3e2d2c",
+    password: "36822fba",
+    database: "heroku_df5dd3290a51043"
 })
 
+//mysql://bd64837d3e2d2c:36822fba@us-cdbr-east-06.cleardb.net/heroku_df5dd3290a51043?reconnect=true
+
+/*
+    host: "us-cdbr-east-06.cleardb.net",
+    user: "b6cf414d115c71",
+    password: "36822fba",
+    database: "heroku_15dcc06d4280242"
+*/
 
 app.use(cors())
 app.use(express.json())
